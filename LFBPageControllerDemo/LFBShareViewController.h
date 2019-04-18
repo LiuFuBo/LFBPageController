@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  LFBShareViewController.h
 //  LFBPageControllerDemo
 //
 //  Created by liufubo on 2019/4/18.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow *window;
-
+@interface LFBShareViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

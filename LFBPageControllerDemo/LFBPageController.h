@@ -1,15 +1,16 @@
 //
-//  ViewController.h
+//  LFBPageController.h
 //  LFBPageControllerDemo
 //
 //  Created by liufubo on 2019/4/18.
 //  Copyright © 2019 liufubo. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "LFBPageViewController.h"
 
-@interface ViewController : UIViewController
 
+@interface LFBPageController : LFBPageViewController
 
 @end
+
 

@@ -1,6 +1,6 @@
 //
-//  LFBPageControllerTests.m
-//  LFBPageControllerTests
+//  LFBPageControllerDemoTests.m
+//  LFBPageControllerDemoTests
 //
 //  Created by liufubo on 2019/4/18.
 //  Copyright © 2019 liufubo. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface LFBPageControllerTests : XCTestCase
+@interface LFBPageControllerDemoTests : XCTestCase
 
 @end
 
-@implementation LFBPageControllerTests
+@implementation LFBPageControllerDemoTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

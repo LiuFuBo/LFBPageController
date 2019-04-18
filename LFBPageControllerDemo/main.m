@@ -1,6 +1,6 @@
 //
 //  main.m
-//  LFBPageController
+//  LFBPageControllerDemo
 //
 //  Created by liufubo on 2019/4/18.
 //  Copyright © 2019 liufubo. All rights reserved.

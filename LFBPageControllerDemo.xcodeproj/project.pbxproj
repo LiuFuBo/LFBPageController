@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E7275222682D9000913669 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E7275122682D9000913669 /* AppDelegate.m */; };
+		13E7275522682D9000913669 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E7275422682D9000913669 /* ViewController.m */; };
+		13E7275822682D9000913669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E7275622682D9000913669 /* Main.storyboard */; };
+		13E7275A22682D9100913669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E7275922682D9100913669 /* Assets.xcassets */; };
+		13E7275D22682D9100913669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E7275B22682D9100913669 /* LaunchScreen.storyboard */; };
+		13E7276022682D9100913669 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E7275F22682D9100913669 /* main.m */; };
+		13E7276A22682D9100913669 /* LFBPageControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E7276922682D9100913669 /* LFBPageControllerDemoTests.m */; };
+		13E7277522682D9100913669 /* LFBPageControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E7277422682D9100913669 /* LFBPageControllerDemoUITests.m */; };
+		13E7278E2268485C00913669 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E727832268485C00913669 /* UIColor+Hex.m */; };
+		13E7278F2268485C00913669 /* LFBConfigItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E727842268485C00913669 /* LFBConfigItem.m */; };
+		13E727902268485C00913669 /* LFBPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E727872268485C00913669 /* LFBPageViewController.m */; };
+		13E727912268485C00913669 /* LFBTabItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E7278B2268485C00913669 /* LFBTabItemModel.m */; };
+		13E727922268485C00913669 /* LFBTabHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E7278C2268485C00913669 /* LFBTabHeadView.m */; };
+		13E7279822684A5700913669 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E7279722684A5700913669 /* UIView+Utils.m */; };
+		13E7279B22684AEC00913669 /* NSObject+Additionals.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E7279A22684AEC00913669 /* NSObject+Additionals.m */; };
+		13E7279E22684BCE00913669 /* LFBBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E7279D22684BCE00913669 /* LFBBuyViewController.m */; };
+		13E727A122684BE200913669 /* LFBShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E727A022684BE200913669 /* LFBShopViewController.m */; };
+		13E727A422684C0700913669 /* LFBPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E727A322684C0700913669 /* LFBPayViewController.m */; };
+		13E727A722684C2000913669 /* LFBShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E727A622684C2000913669 /* LFBShareViewController.m */; };
+		13E727AA22684D2B00913669 /* LFBPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E727A922684D2B00913669 /* LFBPageController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13E7276622682D9100913669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13E7274522682D9000913669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E7274C22682D9000913669;
+			remoteInfo = LFBPageControllerDemo;
+		};
+		13E7277122682D9100913669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13E7274522682D9000913669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E7274C22682D9000913669;
+			remoteInfo = LFBPageControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13E7274D22682D9000913669 /* LFBPageControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFBPageControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E7275022682D9000913669 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13E7275122682D9000913669 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13E7275322682D9000913669 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13E7275422682D9000913669 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13E7275722682D9000913669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13E7275922682D9100913669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13E7275C22682D9100913669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13E7275E22682D9100913669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E7275F22682D9100913669 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13E7276522682D9100913669 /* LFBPageControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFBPageControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E7276922682D9100913669 /* LFBPageControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBPageControllerDemoTests.m; sourceTree = "<group>"; };
+		13E7276B22682D9100913669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E7277022682D9100913669 /* LFBPageControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFBPageControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E7277422682D9100913669 /* LFBPageControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBPageControllerDemoUITests.m; sourceTree = "<group>"; };
+		13E7277622682D9100913669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E727832268485C00913669 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		13E727842268485C00913669 /* LFBConfigItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBConfigItem.m; sourceTree = "<group>"; };
+		13E727852268485C00913669 /* LFBTabHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBTabHeader.h; sourceTree = "<group>"; };
+		13E727862268485C00913669 /* LFBTabItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBTabItemModel.h; sourceTree = "<group>"; };
+		13E727872268485C00913669 /* LFBPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBPageViewController.m; sourceTree = "<group>"; };
+		13E727882268485C00913669 /* LFBTabHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBTabHeadView.h; sourceTree = "<group>"; };
+		13E727892268485C00913669 /* LFBConfigItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBConfigItem.h; sourceTree = "<group>"; };
+		13E7278A2268485C00913669 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		13E7278B2268485C00913669 /* LFBTabItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBTabItemModel.m; sourceTree = "<group>"; };
+		13E7278C2268485C00913669 /* LFBTabHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBTabHeadView.m; sourceTree = "<group>"; };
+		13E7278D2268485C00913669 /* LFBPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBPageViewController.h; sourceTree = "<group>"; };
+		13E7279622684A5600913669 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		13E7279722684A5700913669 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		13E7279922684AEC00913669 /* NSObject+Additionals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additionals.h"; sourceTree = "<group>"; };
+		13E7279A22684AEC00913669 /* NSObject+Additionals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additionals.m"; sourceTree = "<group>"; };
+		13E7279C22684BCE00913669 /* LFBBuyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBBuyViewController.h; sourceTree = "<group>"; };
+		13E7279D22684BCE00913669 /* LFBBuyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBBuyViewController.m; sourceTree = "<group>"; };
+		13E7279F22684BE200913669 /* LFBShopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBShopViewController.h; sourceTree = "<group>"; };
+		13E727A022684BE200913669 /* LFBShopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBShopViewController.m; sourceTree = "<group>"; };
+		13E727A222684C0700913669 /* LFBPayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBPayViewController.h; sourceTree = "<group>"; };
+		13E727A322684C0700913669 /* LFBPayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBPayViewController.m; sourceTree = "<group>"; };
+		13E727A522684C2000913669 /* LFBShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBShareViewController.h; sourceTree = "<group>"; };
+		13E727A622684C2000913669 /* LFBShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBShareViewController.m; sourceTree = "<group>"; };
+		13E727A822684D2B00913669 /* LFBPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBPageController.h; sourceTree = "<group>"; };
+		13E727A922684D2B00913669 /* LFBPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBPageController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13E7274A22682D9000913669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E7276222682D9100913669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E7276D22682D9100913669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E7274422682D9000913669 = {
+			isa = PBXGroup;
+			children = (
+				13E7274F22682D9000913669 /* LFBPageControllerDemo */,
+				13E7276822682D9100913669 /* LFBPageControllerDemoTests */,
+				13E7277322682D9100913669 /* LFBPageControllerDemoUITests */,
+				13E7274E22682D9000913669 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13E7274E22682D9000913669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13E7274D22682D9000913669 /* LFBPageControllerDemo.app */,
+				13E7276522682D9100913669 /* LFBPageControllerDemoTests.xctest */,
+				13E7277022682D9100913669 /* LFBPageControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13E7274F22682D9000913669 /* LFBPageControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				13E727822268485C00913669 /* LFBPageController */,
+				13E7275022682D9000913669 /* AppDelegate.h */,
+				13E7275122682D9000913669 /* AppDelegate.m */,
+				13E7275322682D9000913669 /* ViewController.h */,
+				13E7275422682D9000913669 /* ViewController.m */,
+				13E727A822684D2B00913669 /* LFBPageController.h */,
+				13E727A922684D2B00913669 /* LFBPageController.m */,
+				13E7279C22684BCE00913669 /* LFBBuyViewController.h */,
+				13E7279D22684BCE00913669 /* LFBBuyViewController.m */,
+				13E7279F22684BE200913669 /* LFBShopViewController.h */,
+				13E727A022684BE200913669 /* LFBShopViewController.m */,
+				13E727A222684C0700913669 /* LFBPayViewController.h */,
+				13E727A322684C0700913669 /* LFBPayViewController.m */,
+				13E727A522684C2000913669 /* LFBShareViewController.h */,
+				13E727A622684C2000913669 /* LFBShareViewController.m */,
+				13E7275622682D9000913669 /* Main.storyboard */,
+				13E7275922682D9100913669 /* Assets.xcassets */,
+				13E7275B22682D9100913669 /* LaunchScreen.storyboard */,
+				13E7275E22682D9100913669 /* Info.plist */,
+				13E7275F22682D9100913669 /* main.m */,
+			);
+			path = LFBPageControllerDemo;
+			sourceTree = "<group>";
+		};
+		13E7276822682D9100913669 /* LFBPageControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				13E7276922682D9100913669 /* LFBPageControllerDemoTests.m */,
+				13E7276B22682D9100913669 /* Info.plist */,
+			);
+			path = LFBPageControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		13E7277322682D9100913669 /* LFBPageControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13E7277422682D9100913669 /* LFBPageControllerDemoUITests.m */,
+				13E7277622682D9100913669 /* Info.plist */,
+			);
+			path = LFBPageControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		13E727822268485C00913669 /* LFBPageController */ = {
+			isa = PBXGroup;
+			children = (
+				13E7278D2268485C00913669 /* LFBPageViewController.h */,
+				13E727872268485C00913669 /* LFBPageViewController.m */,
+				13E727892268485C00913669 /* LFBConfigItem.h */,
+				13E727842268485C00913669 /* LFBConfigItem.m */,
+				13E727862268485C00913669 /* LFBTabItemModel.h */,
+				13E7278B2268485C00913669 /* LFBTabItemModel.m */,
+				13E727882268485C00913669 /* LFBTabHeadView.h */,
+				13E7278C2268485C00913669 /* LFBTabHeadView.m */,
+				13E7278A2268485C00913669 /* UIColor+Hex.h */,
+				13E727832268485C00913669 /* UIColor+Hex.m */,
+				13E7279622684A5600913669 /* UIView+Utils.h */,
+				13E7279722684A5700913669 /* UIView+Utils.m */,
+				13E7279922684AEC00913669 /* NSObject+Additionals.h */,
+				13E7279A22684AEC00913669 /* NSObject+Additionals.m */,
+				13E727852268485C00913669 /* LFBTabHeader.h */,
+			);
+			path = LFBPageController;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13E7274C22682D9000913669 /* LFBPageControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E7277922682D9100913669 /* Build configuration list for PBXNativeTarget "LFBPageControllerDemo" */;
+			buildPhases = (
+				13E7274922682D9000913669 /* Sources */,
+				13E7274A22682D9000913669 /* Frameworks */,
+				13E7274B22682D9000913669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFBPageControllerDemo;
+			productName = LFBPageControllerDemo;
+			productReference = 13E7274D22682D9000913669 /* LFBPageControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13E7276422682D9100913669 /* LFBPageControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E7277C22682D9100913669 /* Build configuration list for PBXNativeTarget "LFBPageControllerDemoTests" */;
+			buildPhases = (
+				13E7276122682D9100913669 /* Sources */,
+				13E7276222682D9100913669 /* Frameworks */,
+				13E7276322682D9100913669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13E7276722682D9100913669 /* PBXTargetDependency */,
+			);
+			name = LFBPageControllerDemoTests;
+			productName = LFBPageControllerDemoTests;
+			productReference = 13E7276522682D9100913669 /* LFBPageControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13E7276F22682D9100913669 /* LFBPageControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E7277F22682D9100913669 /* Build configuration list for PBXNativeTarget "LFBPageControllerDemoUITests" */;
+			buildPhases = (
+				13E7276C22682D9100913669 /* Sources */,
+				13E7276D22682D9100913669 /* Frameworks */,
+				13E7276E22682D9100913669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13E7277222682D9100913669 /* PBXTargetDependency */,
+			);
+			name = LFBPageControllerDemoUITests;
+			productName = LFBPageControllerDemoUITests;
+			productReference = 13E7277022682D9100913669 /* LFBPageControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13E7274522682D9000913669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = liufubo;
+				TargetAttributes = {
+					13E7274C22682D9000913669 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					13E7276422682D9100913669 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 13E7274C22682D9000913669;
+					};
+					13E7276F22682D9100913669 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 13E7274C22682D9000913669;
+					};
+				};
+			};
+			buildConfigurationList = 13E7274822682D9000913669 /* Build configuration list for PBXProject "LFBPageControllerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13E7274422682D9000913669;
+			productRefGroup = 13E7274E22682D9000913669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13E7274C22682D9000913669 /* LFBPageControllerDemo */,
+				13E7276422682D9100913669 /* LFBPageControllerDemoTests */,
+				13E7276F22682D9100913669 /* LFBPageControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13E7274B22682D9000913669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E7275D22682D9100913669 /* LaunchScreen.storyboard in Resources */,
+				13E7275A22682D9100913669 /* Assets.xcassets in Resources */,
+				13E7275822682D9000913669 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E7276322682D9100913669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E7276E22682D9100913669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13E7274922682D9000913669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E7279B22684AEC00913669 /* NSObject+Additionals.m in Sources */,
+				13E727902268485C00913669 /* LFBPageViewController.m in Sources */,
+				13E7279E22684BCE00913669 /* LFBBuyViewController.m in Sources */,
+				13E727A422684C0700913669 /* LFBPayViewController.m in Sources */,
+				13E727A122684BE200913669 /* LFBShopViewController.m in Sources */,
+				13E727912268485C00913669 /* LFBTabItemModel.m in Sources */,
+				13E7275522682D9000913669 /* ViewController.m in Sources */,
+				13E727A722684C2000913669 /* LFBShareViewController.m in Sources */,
+				13E727922268485C00913669 /* LFBTabHeadView.m in Sources */,
+				13E727AA22684D2B00913669 /* LFBPageController.m in Sources */,
+				13E7278E2268485C00913669 /* UIColor+Hex.m in Sources */,
+				13E7278F2268485C00913669 /* LFBConfigItem.m in Sources */,
+				13E7276022682D9100913669 /* main.m in Sources */,
+				13E7279822684A5700913669 /* UIView+Utils.m in Sources */,
+				13E7275222682D9000913669 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E7276122682D9100913669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E7276A22682D9100913669 /* LFBPageControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E7276C22682D9100913669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E7277522682D9100913669 /* LFBPageControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13E7276722682D9100913669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13E7274C22682D9000913669 /* LFBPageControllerDemo */;
+			targetProxy = 13E7276622682D9100913669 /* PBXContainerItemProxy */;
+		};
+		13E7277222682D9100913669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13E7274C22682D9000913669 /* LFBPageControllerDemo */;
+			targetProxy = 13E7277122682D9100913669 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13E7275622682D9000913669 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E7275722682D9000913669 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13E7275B22682D9100913669 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E7275C22682D9100913669 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13E7277722682D9100913669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13E7277822682D9100913669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13E7277A22682D9100913669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFBPageControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liufubo.com.liufubo.LFBPageControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13E7277B22682D9100913669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFBPageControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liufubo.com.liufubo.LFBPageControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13E7277D22682D9100913669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFBPageControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liufubo.com.liufubo.LFBPageControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFBPageControllerDemo.app/LFBPageControllerDemo";
+			};
+			name = Debug;
+		};
+		13E7277E22682D9100913669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFBPageControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liufubo.com.liufubo.LFBPageControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFBPageControllerDemo.app/LFBPageControllerDemo";
+			};
+			name = Release;
+		};
+		13E7278022682D9100913669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFBPageControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liufubo.com.liufubo.LFBPageControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LFBPageControllerDemo;
+			};
+			name = Debug;
+		};
+		13E7278122682D9100913669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFBPageControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liufubo.com.liufubo.LFBPageControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LFBPageControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13E7274822682D9000913669 /* Build configuration list for PBXProject "LFBPageControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E7277722682D9100913669 /* Debug */,
+				13E7277822682D9100913669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E7277922682D9100913669 /* Build configuration list for PBXNativeTarget "LFBPageControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E7277A22682D9100913669 /* Debug */,
+				13E7277B22682D9100913669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E7277C22682D9100913669 /* Build configuration list for PBXNativeTarget "LFBPageControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E7277D22682D9100913669 /* Debug */,
+				13E7277E22682D9100913669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E7277F22682D9100913669 /* Build configuration list for PBXNativeTarget "LFBPageControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E7278022682D9100913669 /* Debug */,
+				13E7278122682D9100913669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13E7274522682D9000913669 /* Project object */;
+}
