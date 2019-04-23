@@ -25,7 +25,6 @@
     [super viewDidLoad];
     self.edgesForExtendedLayout = UIRectEdgeNone;
     [self initParameter];
-    [self initUIFrame];
     [self configItemModel];
     [self createHeadView];
     [self setupContentView];
@@ -33,17 +32,28 @@
 }
 
 - (void)initUIFrame{
-    [self.tabHeadView setFrame:CGRectMake(0, 0, kMainScreenWidth, 44)];
+    CGFloat tabHeadHeight = (self.configItem.headViewHeight > 0) ? self.configItem.headViewHeight : 44;
+    [self.tabHeadView setFrame:CGRectMake(0, 0, kMainScreenWidth, tabHeadHeight)];
     [self.scrollView setFrame:CGRectMake(0,self.tabHeadView.bounds.size.height, kMainScreenWidth, kMainScreenHeight - self.tabHeadView.bottom - kNavAndStatusBarHeight)];
     [self.tabHeadView initUI];
 }
 
 - (void)initConfigItem:(LFBConfigItem *)configItem{
+    if (configItem.headViewHeight >= 40) {
+        self.configItem.headViewHeight = configItem.headViewHeight;
+    }
+    [self initUIFrame];
     if (configItem.showVerticalLine) {
         self.configItem.showVerticalLine = configItem.showVerticalLine;
     }
     if (configItem.font) {
         self.configItem.font = configItem.font;
+    }
+    if (configItem.normalColor) {
+        self.configItem.normalColor = configItem.normalColor;
+    }
+    if (configItem.selectedColor) {
+        self.configItem.selectedColor = configItem.selectedColor;
     }
     if (configItem.verticalLineColor) {
         self.configItem.verticalLineColor = configItem.verticalLineColor;
@@ -64,10 +74,13 @@
 
 - (void)initParameter{
     self.configItem.showVerticalLine = NO;
+    self.configItem.headViewHeight = 44.0f;
     self.configItem.viewLineWidth = 20.0f;
     self.configItem.verticalLineWidth = 1.0f;
     self.configItem.verticalLineHeight = 10.0f;
     self.configItem.font = [UIFont systemFontOfSize:15];
+    self.configItem.normalColor = [UIColor colorWithHexString:@"#aaaaaa"];
+    self.configItem.selectedColor = [UIColor colorWithHexString:@"#222222"];
     self.configItem.verticalLineColor = [UIColor colorWithHexString:@"#dcdcdc"];
 }
 

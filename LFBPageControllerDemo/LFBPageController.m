@@ -27,27 +27,15 @@
 - (void)configItemModel{
     
     LFBConfigItem *configItem = [[LFBConfigItem alloc]init];
-    configItem.showVerticalLine = YES;
+    [configItem setShowVerticalLine:YES];
     LFBTabItemModel *buyTabItem = [[LFBTabItemModel alloc]init];
     buyTabItem.tabWord = @"购物";
-    buyTabItem.font = [UIFont boldSystemFontOfSize:15];
-    buyTabItem.normalColor = [UIColor colorWithHexString:@"#aaaaaa"];
-    buyTabItem.selectedColor = [UIColor colorWithHexString:@"#222222"];
     LFBTabItemModel *shopTabItem = [[LFBTabItemModel alloc]init];
     shopTabItem.tabWord = @"店铺";
-    shopTabItem.font = [UIFont boldSystemFontOfSize:15];
-    shopTabItem.normalColor = [UIColor colorWithHexString:@"#aaaaaa"];
-    shopTabItem.selectedColor = [UIColor colorWithHexString:@"#222222"];
     LFBTabItemModel *payTabItem = [[LFBTabItemModel alloc]init];
     payTabItem.tabWord = @"支付";
-    payTabItem.font = [UIFont boldSystemFontOfSize:15];
-    payTabItem.normalColor = [UIColor colorWithHexString:@"#aaaaaa"];
-    payTabItem.selectedColor = [UIColor colorWithHexString:@"#222222"];
     LFBTabItemModel *shrareTabItem = [[LFBTabItemModel alloc]init];
     shrareTabItem.tabWord = @"分享";
-    shrareTabItem.font = [UIFont boldSystemFontOfSize:15];
-    shrareTabItem.normalColor = [UIColor colorWithHexString:@"#aaaaaa"];
-    shrareTabItem.selectedColor = [UIColor colorWithHexString:@"#222222"];
     configItem.tabArray = @[buyTabItem,shopTabItem,payTabItem,shrareTabItem];
     LFBBuyViewController *buyVc = [[LFBBuyViewController alloc]init];
     LFBShopViewController *shopVc = [[LFBShopViewController alloc]init];

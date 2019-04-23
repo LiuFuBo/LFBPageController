@@ -41,7 +41,7 @@
         return;
     }
     CGFloat itemWidth = kMainScreenWidth/tabArray.count;
-    CGFloat itemHeight = 40.0f;
+    CGFloat itemHeight =  self.bounds.size.height - 4;
     for (int index =0; index<tabArray.count; index++) {
         LFBTabItemModel *model = tabArray[index];
         UIButton *item = [[UIButton alloc]init];
@@ -54,9 +54,17 @@
         }
         [item addTarget:self action:@selector(p_clickItem:) forControlEvents:UIControlEventTouchUpInside];
         if (index == 0) {
-           [item setTitleColor:model.normalColor forState:UIControlStateNormal];
+            if (model.normalColor) {
+                [item setTitleColor:model.normalColor forState:UIControlStateNormal];
+            }else{
+                [item setTitleColor:self.configItem.normalColor forState:UIControlStateNormal];
+            }
         }else{
-           [item setTitleColor:model.selectedColor forState:UIControlStateNormal];
+            if (model.selectedColor) {
+              [item setTitleColor:model.selectedColor forState:UIControlStateNormal];
+            }else{
+                [item setTitleColor:self.configItem.selectedColor forState:UIControlStateNormal];
+            }
         }
         item.tag = index + 100;
         if (self.configItem.showVerticalLine) {
@@ -108,11 +116,19 @@
         [self.buttonsArray enumerateObjectsUsingBlock:^(UIButton * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             LFBTabItemModel *model = [self.tabArray safeObjectAtIndex:idx];
             obj.selected = NO;
-            [obj setTitleColor:model.normalColor forState:UIControlStateNormal];
+            if (model.normalColor) {
+             [obj setTitleColor:model.normalColor forState:UIControlStateNormal];
+            }else{
+                [obj setTitleColor:self.configItem.normalColor forState:UIControlStateNormal];
+            }
         }];
         LFBTabItemModel *selectedModel = [self.tabArray safeObjectAtIndex:currentIndex];
         UIButton *item = self.buttonsArray[currentIndex];
-        [item setTitleColor:selectedModel.selectedColor forState:UIControlStateNormal];
+        if (selectedModel.selectedColor) {
+         [item setTitleColor:selectedModel.selectedColor forState:UIControlStateNormal];
+        }else{
+            [item setTitleColor:self.configItem.selectedColor forState:UIControlStateNormal];
+        }
         item.selected = YES;
     }
     [self updateViewLine];
@@ -147,18 +163,30 @@
     [self.buttonsArray enumerateObjectsUsingBlock:^(UIButton * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         LFBTabItemModel *model = [self.tabArray safeObjectAtIndex:idx];
         obj.selected = NO;
-        [obj setTitleColor:model.normalColor forState:UIControlStateNormal];
+        if (model.normalColor) {
+         [obj setTitleColor:model.normalColor forState:UIControlStateNormal];
+        }else{
+            [obj setTitleColor:self.configItem.normalColor forState:UIControlStateNormal];
+        }
     }];
     [UIView animateWithDuration:0.3 animations:^{
         if (itemOffsetX < unitWidth) {
             [curItem setSelected:YES];
              LFBTabItemModel *model = [self.tabArray safeObjectAtIndex:curIndex];
-            [curItem setTitleColor:model.selectedColor forState:UIControlStateNormal];
+            if (model.selectedColor) {
+              [curItem setTitleColor:model.selectedColor forState:UIControlStateNormal];
+            }else{
+                [curItem setTitleColor:self.configItem.selectedColor forState:UIControlStateNormal];
+            }
              self.viewLine.center = CGPointMake(curItem.center.x, self.bounds.size.height - 2);
         }else{
             [nextItem setSelected:YES];
             LFBTabItemModel *model = [self.tabArray safeObjectAtIndex:curIndex+1];
-            [nextItem setTitleColor:model.selectedColor forState:UIControlStateNormal];
+            if (model.selectedColor) {
+             [nextItem setTitleColor:model.selectedColor forState:UIControlStateNormal];
+            }else{
+                [nextItem setTitleColor:self.configItem.selectedColor forState:UIControlStateNormal];
+            }
             self.viewLine.center = CGPointMake(nextItem.center.x, self.bounds.size.height - 2);
         }
     }];

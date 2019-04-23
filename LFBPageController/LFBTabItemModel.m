@@ -7,22 +7,10 @@
 //
 
 #import "LFBTabItemModel.h"
-#import "LFBTabHeader.h"
+
 
 @implementation LFBTabItemModel
 
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        [self initConfig];
-    }
-    return self;
-}
 
-- (void)initConfig{
-    self.normalColor = [UIColor colorWithHexString:@"#aaaaaa"];
-    self.selectedColor = [UIColor colorWithHexString:@"#222222"];
-}
 
 @end

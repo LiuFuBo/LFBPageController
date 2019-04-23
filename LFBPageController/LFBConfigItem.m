@@ -7,15 +7,9 @@
 //
 
 #import "LFBConfigItem.h"
+#import "LFBTabHeader.h"
 
 @implementation LFBConfigItem
-
-
-- (void)setShowVerticalLine:(BOOL)showVerticalLine{
-    _showVerticalLine = showVerticalLine;
-}
-
-
 
 
 
